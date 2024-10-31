@@ -65,10 +65,12 @@ const heading = <h1 id="hading">This React Element</h1>;
 
 
 
-// React Functional  Component
 
-const Title = () => (
+
+const element = <span>This is Reacrt Element</span>
+const Title = ()=> (
   <h1 id="title">
+    {element}
     This is Titile 🚀
     </h1>
 )
@@ -77,8 +79,10 @@ const Title = () => (
     // Component Composition
 const HeadingComponent = () => (
   <div id="container" >
-    <h2>{100+200}</h2>
+    {Title()}
+    <Title></Title>
     <Title/>
+  
   <h1 className="head2"> This React functional component </h1>
   </div>
 );
