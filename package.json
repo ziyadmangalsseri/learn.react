@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "learn react js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start":"parcel index.html",
+    "build":"parcel build index.html",
+    "test": "jest"
   },
   "author": "ziyad",
   "license": "ISC",
@@ -15,7 +17,6 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
-  "main": "app.js",
   "repository": {
     "type": "git",
     "url": "(http://github.com/ziyadmangalsseri/learn.react.git)"
